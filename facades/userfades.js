@@ -36,14 +36,4 @@ async function findById(id){
     return result;
 }
 
-/*
-addLocationBlog (..)
-likeLocationBlog(..) */
-
-/* firstName: "c", lastName: "c", userName:"c", password: "c", email: "c@c.dk",
-job : [{
-    type:"t1", company: "c1", companyUrl: "url"},
-    { type:"t1", company: "c1", companyUrl: "url"}]
-}] */
-
 module.exports = {addUser,getAllUsers,findByUserName,findById}

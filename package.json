@@ -1,0 +1,32 @@
+{
+  "name": "miniproject",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "SET DEBUG=miniproject:* & nodemon -e js,ejs ./bin/www",
+    "start": "node ./bin/www",
+    "watch": "nodemon app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "geojson": "^0.5.0",
+    "geojson-utils": "^1.1.0",
+    "http-errors": "~1.6.2",
+    "mocha": "^6.1.2",
+    "mongoose": "^5.4.19",
+    "morgan": "~1.9.0",
+    "pug": "^2.0.3"
+  },
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

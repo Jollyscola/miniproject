@@ -1,5 +1,5 @@
 var connect = require("./dbConnect");
-const port = 3006
+const port = 3007
 var bodyParser = require('body-parser');
 connect(require("./settings").DEV_DB_URI);
 
